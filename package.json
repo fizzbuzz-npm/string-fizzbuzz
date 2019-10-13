@@ -1,0 +1,24 @@
+{
+  "name": "string-fizzbuzzbuzz",
+  "version": "1.0.0",
+  "description": "The string \"fizzbuzz\"",
+  "homepage": "https://github.com/fizzbuzz-npm/string-fizzbuzz",
+  "repository": "github:fizzbuzz-npm/string-fizzbuzz",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "lint-fix": "eslint --fix index.js",
+    "test": "ava"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "eslint": "^6.5.1"
+  },
+  "dependencies": {
+    "general-concat": "^1.0.0",
+    "string-fizz": "^1.0.0",
+    "string-buzz": "^1.0.0"
+  }
+}
